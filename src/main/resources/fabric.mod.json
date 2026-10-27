@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "mynethersdelightpatch",
+	"version": "${version}",
+	"name": "MyNethersDelightPatch",
+	"description": "A Polymer Patch mod for My Nethers Delight Refabricated.",
+	"authors": [
+		"Sun_Phoen1x"
+	],
+	"license": "ARR",
+	"icon": "assets/mynethersdelightpatch/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.phoen1x.mynethersdelight.impl.MyNethersDelightPatch"
+		]
+	},
+	"mixins": [
+		"mynethersdelightpatch.mixins.json"
+	],
+	"depends": {
+        "fabricloader": ">=0.18.5",
+        "minecraft": "~1.21.11",
+        "java": ">=21",
+        "fabric-api": "*",
+        "mynethersdelight": "*"
+    }
+}
